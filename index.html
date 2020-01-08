@@ -9,39 +9,83 @@
     <title>Document</title>
   </head>
   <body>
+
     <div class="container">
       <h1>Online Calculator</h1>
+
       <div class="row">
-        <div class="col-sm">Display (Takes 4 columns)</div>
+        <div class="col-sm-">
+          <input type="text" value="0" class="display" disabled> <!-- This Will display Value-->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <button type="button" class="btn btn-primary btn-block " value="MC">MC</button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-primary btn-block" value="M+">M+</button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-primary btn-block" value="/">/</button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-primary btn-block" value="X">X</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <button type="button" class="btn btn-primary btn-block" value="7">7</button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-primary btn-block" value="8">8</button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-primary btn-block" value="9">9</button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-primary btn-block" value="-">-</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <button type="button" class="btn btn-primary btn-block" value="4">4</button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-primary btn-block" value="5">5</button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-primary btn-block" value="6">6</button>
+        </div>
+        <div class="col-sm">
+          <button type="button" class="btn btn-primary btn-block" value="+">+</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-primary btn-block" value="1">1</button>
+        </div>
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-primary btn-block" value="2">2</button>
+        </div>
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-primary btn-block" value="3">3</button>
+        </div>
+        
       </div>
       <div class="row">
-        <div class="col-sm">MC</div>
-        <div class="col-sm">M+</div>
-        <div class="col-sm">/</div>
-        <div class="col-sm">X</div>
-      </div>
-      <div class="row">
-        <div class="col-sm">7</div>
-        <div class="col-sm">8</div>
-        <div class="col-sm">9</div>
-        <div class="col-sm"> - </div>
-      </div>
-      <div class="row">
-        <div class="col-sm">4</div>
-        <div class="col-sm">5</div>
-        <div class="col-sm">6</div>
-        <div class="col-sm">+</div>
-      </div>
-      <div class="row">
-        <div class="col-sm">1</div>
-        <div class="col-sm">2</div>
-        <div class="col-sm">3</div>
-        <div class="col-sm">=</div>
-      </div>
-      <div class="row">
-        <div class="col-sm">0</div>
-        <div class="col-sm">.</div>
-        <div class="col-sm">=</div>
+        <div class="col-sm-6">
+          <button type="button" class="btn btn-primary btn-block" value="0">0</button>
+        </div>
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-primary btn-block" value=".">.</button>
+        </div>
+        <div class="col-sm-3">
+          <button type="button" class="btn btn-primary btn-block" value="=">=</button>
+        </div>
       </div>
     </div>
   <script src="index.js" type="text/javascript" ></script>
